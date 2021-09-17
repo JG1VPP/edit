@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabFindDialog>
+    <FindDialog>
+        <entry key="title" value="タブ検索"/>
+        <entry key="label_partial" value="部分一致"/>
+        <entry key="button_search" value="検索(S)"/>
+        <entry key="button_close" value="閉じる(C)"/>
+    </FindDialog>
+</TabFindDialog>

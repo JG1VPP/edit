@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<HexDump>
+    <entry key="command_name" value="dump"/>
+
+    <entry key="failed_to_dump" value="Failed to dump %s"/>
+</HexDump>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Jump>
+    <entry key="command_name" value="Jump"/>
+    <entry key="line_number" value="Line Number"/>
+    <entry key="illegal_number_format" value="'%s' is illegal number"/>
+</Jump>

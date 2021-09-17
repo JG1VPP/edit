@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ReadIn>
+    <entry key="command_name" value="read in"/>
+
+    <entry key="file_not_found_msg"
+           value="&lt;html&gt;%s&lt;br&gt;does not exist. Will you choose file again?&lt;br&gt;&lt;br&gt;"/>
+    <entry key="failed_to_open_msg" value="Failed to open %s"/>
+</ReadIn>

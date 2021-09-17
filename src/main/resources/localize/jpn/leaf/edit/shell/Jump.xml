@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Jump>
+    <entry key="command_name" value="指定行移動"/>
+    <entry key="line_number" value="行番号"/>
+    <entry key="illegal_number_format" value="「%s」は不正な番号です。"/>
+</Jump>

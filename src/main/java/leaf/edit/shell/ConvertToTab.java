@@ -1,0 +1,24 @@
+/*******************************************************************************
+ * Java Swing Library 'Leaf' and 'Tsukishiro Editor' since 2009 February 24th
+ * License: GNU General Public License v3+ (see LICENSE)
+ * Author: Journal of Hamradio Informatics (http://pafelog.net)
+*******************************************************************************/
+package leaf.edit.shell;
+
+import leaf.edit.cmd.SelectionCommand;
+
+/**
+ * 選択文字列の空白文字をタブに変換するコマンドです。
+ *
+ * @author 無線部開発班
+ */
+public final class ConvertToTab extends SelectionCommand {
+	@Override
+	public void process(Object... args) {
+		var editor = getEditor();
+		var selected = editor.getSelectedText().replaceAll("　", "  ");
+		var size = SetTabSize.getTabSize();
+		var space = String.format("%" + size + "s", "");
+		editor.replaceSelection(selected.replaceAll(space, "\t"));
+	}
+}

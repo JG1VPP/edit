@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiffDialog>
+    <entry key="title" value="Diff"/>
+    <entry key="label_old" value="比較元"/>
+    <entry key="label_new" value="比較先"/>
+    <entry key="case_sensitive" value="大文字と小文字を区別(S)"/>
+    <entry key="button_diff" value="差分抽出(D)"/>
+    <entry key="button_close" value="閉じる(C)"/>
+</DiffDialog>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CloseTab>
+    <entry key="command_name" value="close tab"/>
+
+    <entry key="file_is_edited_confirm" value="&lt;html&gt;This file is edited. Will you save it?&lt;br&gt;&lt;br&gt;"/>
+</CloseTab>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<HexDump>
+    <entry key="command_name" value="ダンプ"/>
+
+    <entry key="failed_to_dump" value="&lt;html&gt;%s&lt;br&gt;上記のファイルのダンプに失敗しました。&lt;br&gt;&lt;br&gt;"/>
+</HexDump>

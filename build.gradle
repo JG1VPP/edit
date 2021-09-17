@@ -1,58 +1,23 @@
-plugins {
-	id 'java'
-	id 'maven-publish'
-	id 'org.openjfx.javafxplugin' version '0.0.8'
-}
+apply plugin: 'application'
 
 def utf8 = 'UTF-8'
 def java = '11'
-def dist = 'dist'
 
-repositories {
-	jcenter()
+mainClassName = 'leaf.edit.app.Startup'
+
+repositories.mavenCentral()
+
+dependencies {
+	implementation 'net.java.dev.jna:jna:5.9.0'
 }
 
 compileJava {
 	options.encoding = utf8
 	sourceCompatibility = java
 	targetCompatibility = java
-	options.compilerArgs << "-Xlint:deprecation"
 }
 
-javafx {
-	version = '11.0.2'
-	modules = ['javafx.swing']
+jar.manifest.attributes 'Main-Class': mainClassName
+jar.from configurations.compileClasspath.collect {
+	it.isDirectory()? it: zipTree(it)
 }
-
-test {
-	useJUnitPlatform()
-}
-
-task checkout(type: Exec) {
-	commandLine 'git', 'worktree', 'add', dist, 'gh-pages'
-	enabled = !file(dist).exists()
-}
-
-javadoc {
-	destinationDir = file("$dist/doc")
-	options.links("https://docs.oracle.com/en/java/javase/$java/docs/api/")
-	options.header("<a href='http://nextzlog.github.io/leaf'>Leaf API</a>")
-	options.charSet = options.encoding = utf8
-}
-
-publishing.repositories.maven {
-	url = "$dist/mvn"
-}
-
-publishing.publications {
-	leaf(MavenPublication) {
-		from components.java
-		groupId = 'leaf'
-		def ver = 'git describe'.execute().text.trim()
-		version = ver?.split("-", 3).take(2).join(".")
-	}
-}
-
-javadoc.dependsOn(checkout)
-publish.dependsOn(checkout)
-publish.mustRunAfter(checkout)

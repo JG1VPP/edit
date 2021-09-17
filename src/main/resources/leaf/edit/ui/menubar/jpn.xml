@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<build>
+    <menu text="ファイル(F)" mnemonic="F">
+        <item text="新規作成(N)　　　　　　　　　　　　" command="New" accel="ctrl N" mnemonic="N" leaficon="NEW"/>
+        <item text="開く(O)... 　　　　　　　　　　　　" command="Open" accel="ctrl O" mnemonic="O" leaficon="OPEN"/>
+        <item text="閉じて開く(L)... 　　　　　　　　　" command="CloseAndOpen" accel="ctrl alt O" mnemonic="L"/>
+        <separator/>
+        <item text="上書き保存(S)　　　　　　　　　　　" command="Save" accel="ctrl S" mnemonic="S" leaficon="SAVE"/>
+        <item text="名前を付けて保存(A)... 　　　　　　" command="SaveAs" accel="ctrl shift S" mnemonic="A" leaficon="SAVE_AS"/>
+        <item text="全て上書き保存(V)　　　　　　　　　" command="SaveAll" mnemonic="V" leaficon="SAVE_ALL"/>
+        <separator/>
+        <item text="印刷(P)... 　　　　　　　　　　　　" command="Print" accel="ctrl P" mnemonic="P" leaficon="PRINT"/>
+        <separator/>
+        <item text="選択部分に読み込み(I)... 　　　　　" command="ReadIn" mnemonic="I"/>
+        <item text="選択部分を保存(W)... 　　　　　　　" command="WriteOut" mnemonic="W"/>
+        <separator/>
+        <item text="開き直す(R)　　　　　　　　　　　　" command="Reopen" accel="alt O" mnemonic="R" leaficon="LOOP"/>
+        <item command="History"/>
+        <separator/>
+        <item text="上書き保存して閉じる(T)　　　　　　" command="SaveAndCloseTab" mnemonic="T"/>
+        <item text="現在のタブを閉じる(C)　　　　　　　" command="CloseTab" accel="ctrl F4" mnemonic="C" leaficon="CLOSE"/>
+        <item text="タブを全て閉じる(B)　　　　　　　　" command="CloseAllTabs" accel="alt F4" mnemonic="B"/>
+        <separator/>
+        <item text="月白エディタの終了(X)　　　　　　　" command="Exit" accel="ctrl alt F4" mnemonic="X" leaficon="EXIT"/>
+    </menu>
+    <menu text="編集(E)" mnemonic="E">
+        <item text="元に戻す(U)　　　　　　　　　　　　" command="Undo" accel="ctrl Z" mnemonic="U" leaficon="UNDO"/>
+        <item text="やり直し(R)　　　　　　　　　　　　" command="Redo" accel="ctrl Y" mnemonic="R" leaficon="REDO"/>
+        <separator/>
+        <item text="切り取り(T)　　　　　　　　　　　　" command="Cut" accel="ctrl X" mnemonic="T" leaficon="CUT"/>
+        <item text="コピー(C)　　　　　　　　　　　　　" command="Copy" accel="ctrl C" mnemonic="C" leaficon="COPY"/>
+        <item text="貼り付け(P)　　　　　　　　　　　　" command="Paste" accel="ctrl V" mnemonic="P" leaficon="PASTE"/>
+        <item text="削除(D)　　　　　　　　　　　　　　" command="Delete" accel="DELETE" mnemonic="D" leaficon="SALTIRE"/>
+        <item text="現在の行を削除(L)　　　　　　　　　" command="DeleteLine" accel="ctrl B" mnemonic="L" leaficon="DELETE_LINE"/>
+        <item text="カーソル前を削除(B)　　　　　　　　" command="Backspace" accel="BACK_SPACE" mnemonic="B" leaficon="LEFT"/>
+        <separator/>
+        <item text="現在の行を選択(S)　　　　　　　　　" command="SelectLine" accel="ctrl Q" mnemonic="S" leaficon="SELECT"/>
+        <item text="全て選択(A)　　　　　　　　　　　　" command="SelectAll" accel="ctrl A" mnemonic="A" leaficon="SELECT_ALL"/>
+        <separator/>
+        <menu text="文字列挿入(I)　　　　　　　　　　　" mnemonic="I">
+            <item text="現在の日付(D)　　　　　　　　　　" command="InsertDate" accel="shift alt D" mnemonic="D"/>
+            <item text="現在の時刻(T)　　　　　　　　　　" command="InsertTime" accel="shift alt T" mnemonic="T"/>
+            <separator/>
+            <item text="OSのバージョン(O)　　　　　　　　" command="InsertOSVersion" accel="shift alt O" mnemonic="O"/>
+            <item text="ユーザー名(U)　　　　　　　　　　" command="InsertUserName" accel="shift alt U" mnemonic="U"/>
+            <separator/>
+            <item text="編集中のファイル名(N)　　　　　　" command="InsertFileName" accel="shift alt N" mnemonic="N"/>
+            <item text="編集中のファイルパス(P)　　　　　" command="InsertFilePath" accel="shift alt P" mnemonic="P"/>
+            <separator/>
+            <item text="編集中のファイルの文字数(T)　　　" command="InsertTextLength" accel="shift alt L" mnemonic="L"/>
+            <item text="編集中のファイルのバイト数(B)　　" command="InsertByteLength" accel="shift alt B" mnemonic="B"/>
+            <separator/>
+            <item text="パスワード生成(G)　　　　　　　　" command="InsertPassword" accel="shift alt G" mnemonic="G"/>
+        </menu>
+        <menu text="カーソル移動(M)" mnemonic="M">
+            <item text="ファイル先頭まで移動(T)　　　　　" command="MoveToBOF" mnemonic="T"/>
+            <item text="ファイル末尾まで移動(E)　　　　　" command="MoveToEOF" mnemonic="E"/>
+            <separator/>
+            <item text="前のページに移動(P)　　　　　　　" command="MoveToPreviousPage" accel="alt UP" mnemonic="P"/>
+            <item text="次のページに移動(N)　　　　　　　" command="MoveToNextPage" accel="alt DOWN" mnemonic="N"/>
+            <separator/>
+            <item text="行の先頭に移動(L)　　　　　　　　" command="MoveToBOL" accel="alt LEFT" mnemonic="L"/>
+            <item text="行の終端に移動(R)　　　　　　　　" command="MoveToEOL" accel="alt RIGHT" mnemonic="R"/>
+        </menu>
+        <menu text="文字列選択(S)" mnemonic="S">
+            <item text="ファイル先頭まで選択(T)　　　　　" command="SelectToBOF" accel="alt shift UP" mnemonic="T"/>
+            <item text="ファイル末尾まで選択(E)　　　　　" command="SelectToEOF" accel="alt shift DOWN" mnemonic="E"/>
+            <separator/>
+            <item text="行の先頭まで選択(L)　　　　　　　" command="SelectToBOL" accel="alt shift LEFT" mnemonic="L"/>
+            <item text="行の終端まで選択(R)　　　　　　　" command="SelectToEOL" accel="alt shift RIGHT" mnemonic="R"/>
+            <separator/>
+            <item text="現在の行を選択(S)　　　　　　　　" command="SelectLine" accel="ctrl Q" mnemonic="S" leaficon="SELECT"/>
+            <item text="全て選択(A)　　　　　　　　　　　" command="SelectAll" accel="ctrl A" mnemonic="A" leaficon="SELECT_ALL"/>
+        </menu>
+        <menu text="文字列整形(F)" mnemonic="F">
+            <item text="選択行の昇順並び替え(A)　　　　　" command="SortInAscending" accel="alt A" mnemonic="A" leaficon="DOWN"/>
+            <item text="選択行の降順並び替え(D)　　　　　" command="SortInDescending" accel="alt D" mnemonic="D" leaficon="UP"/>
+        </menu>
+    </menu>
+    <menu text="変換(C)" mnemonic="C">
+        <item text="小文字へ(L)　　　　　　　　　　　　" command="ConvertToLowerCase" accel="alt shift F5" mnemonic="L"/>
+        <item text="大文字へ(U)　　　　　　　　　　　　" command="ConvertToUpperCase" accel="alt shift F6" mnemonic="U"/>
+        <separator/>
+        <item text="全角英数→半角英数(H)　　　　　　　" command="ConvertToEnAlphaNumeric" accel="alt shift F7" mnemonic="H"/>
+        <item text="半角英数→全角英数(F)　　　　　　　" command="ConvertToEmAlphaNumeric" accel="alt shift F8" mnemonic="F"/>
+        <menu text="アルファベット(A)" mnemonic="A">
+            <item text="全角英字→半角英字(H)　　　　　　" command="ConvertToEnAlphabet" mnemonic="H"/>
+            <item text="半角英字→全角英字(F)　　　　　　" command="ConvertToEmAlphabet" mnemonic="F"/>
+        </menu>
+        <menu text="数字(N)" mnemonic="N">
+            <item text="全角数字→半角数字(H)　　　　　　" command="ConvertToEnNumeric" mnemonic="H"/>
+            <item text="半角数字→全角数字(F)　　　　　　" command="ConvertToEmNumeric" mnemonic="F"/>
+        </menu>
+        <menu text="日本語仮名(J)" mnemonic="J">
+            <item text="カタカナ→ひらがな(H)　　　　　　" command="ConvertToHiragana" mnemonic="H"/>
+            <item text="ひらがな→カタカナ(K)　　　　　　" command="ConvertToKatakana" mnemonic="K"/>
+        </menu>
+        <separator/>
+        <item text="タブを空白に(W)　　　　　　　　　　" command="ConvertToWhitespace" mnemonic="W"/>
+        <item text="空白をタブに(T)　　　　　　　　　　" command="ConvertToTab" mnemonic="T"/>
+    </menu>
+    <menu text="検索(S)" mnemonic="S">
+        <item text="検索(F)... 　　　　　　　　　　　　" command="Find" accel="ctrl F" mnemonic="F" leaficon="FIND"/>
+        <item text="次を検索(N)　　　　　　　　　　　　" command="FindNext" accel="F3" mnemonic="N" leaficon="FIND_RIGHT"/>
+        <item text="前を検索(P)　　　　　　　　　　　　" command="FindPrevious" accel="shift F3" mnemonic="P" leaficon="FIND_LEFT"/>
+        <item text="置換(R)... 　　　　　　　　　　　　" command="Replace" accel="ctrl R" mnemonic="R" leaficon="REPLACE"/>
+        <separator/>
+        <item text="GREP...　　　　　　　　　　　　　　" command="Grep" accel="ctrl G" mnemonic="G" leaficon="GREP"/>
+        <item text="DIFF差分表示...　　　　　　　　　　" command="Diff" accel="ctrl D" mnemonic="D"/>
+        <separator/>
+        <menu text="ウェブ検索(O)　　　　　　　　　　　" mnemonic="O">
+            <item text="Google 　　　　　　　　　　　　　" command="SearchWithGoogle" mnemonic="G"/>
+            <item text="Yahoo! 　　　　　　　　　　　　　" command="SearchWithYahoo" mnemonic="Y"/>
+            <separator/>
+            <item text="YouTube　　　　　　　　　　　　　" command="SearchWithYouTube" mnemonic="Y"/>
+            <item text="ニコニコ動画(N)　　　　　　　　　" command="SearchWithNicovideo" mnemonic="N"/>
+            <separator/>
+            <item text="ウィキペディア(W)　　　　　　　　" command="SearchWithWikipedia" mnemonic="W"/>
+        </menu>
+        <separator/>
+        <item text="タブ検索(T)... 　　　　　　　　　　" command="SearchTab" accel="ctrl T" mnemonic="T"/>
+        <separator/>
+        <item text="指定行に移動(J)... 　　　　　　　　" command="Jump" accel="ctrl J" mnemonic="J"/>
+    </menu>
+    <menu text="ツール(X)" mnemonic="X">
+        <item text="スクリプト実行(E)　　　　　　　　　" command="Eval" accel="F5" mnemonic="E" leaficon="PLAY"/>
+        <item text="ブラウザで閲覧(B)　　　　　　　　　" command="Browse" accel="F6" mnemonic="B"/>
+        <separator/>
+        <item text="16進ダンプ(D)... 　　　　　　　　　" command="HexDump" mnemonic="D"/>
+        <item text="ニュースフィード(F)　　　　　　　　" command="NewsFeed" mnemonic="F"/>
+        <separator/>
+        <menu text="セルオートマータ(A)　　　　　　　　" mnemonic="A">
+            <item text="左スクロール(S)...　　　　　　　　　" command="LeftScroll" mnemonic="S"/>
+            <item text="ライフゲーム(L)...　　　　　　　　　" command="Life" mnemonic="L"/>
+            <item text="ワイヤワールド(W)...　　　　　　　　" command="Wireworld" mnemonic="W"/>
+        </menu>
+        <separator/>
+        <item text="世界時計(W)... 　　　　　　　　　　" command="WorldClock" mnemonic="W"/>
+        <item text="精密電卓(C)... 　　　　　　　　　　" command="Calculator" mnemonic="C" leaficon="CALCULATOR"/>
+        <item text="リソースモニタ(R)　　　　　　　　　" command="Resource" mnemonic="R"/>
+        <item text="コンソール出力(M)... 　　　　　　　" command="Console" accel="ctrl M" mnemonic="M" leaficon="CONSOLE"/>
+        <separator/>
+        <item text="ウィンドウを隠す(H)　　　　　　　　" command="HideWindows" accel="ctrl ENTER" mnemonic="H"/>
+    </menu>
+    <menu text="設定(T)" mnemonic="T">
+        <item text="ロケール設定(L)... 　　　　　　　　" command="SetLocale" mnemonic="L"/>
+        <item text="ルックアンドフィール(F)... 　　　　" command="SetLnF" mnemonic="F"/>
+        <separator/>
+        <item text="フォント設定(F)... 　　　　　　　　" command="SetFont" mnemonic="F"/>
+        <item text="構文強調設定(S)... 　　　　　　　　" command="SetSyntaxHighlight" mnemonic="S"/>
+        <separator/>
+        <item text="背景画像設定(B)... 　　　　　　　　" command="SetWallpaper" mnemonic="B"/>
+        <item text="カーソル設定(C)... 　　　　　　　　" command="SetCursorImage" mnemonic="C"/>
+        <item text="タイプ音設定(T)... 　　　　　　　　" command="SetTypingSound" mnemonic="T"/>
+        <separator/>
+        <menu text="タブ文字数" mnemonic="S">
+            <item text="1　" command="SetTabSize1" mnemonic="1" group="tabsize"/>
+            <item text="2　" command="SetTabSize2" mnemonic="2" group="tabsize"/>
+            <item text="3　" command="SetTabSize3" mnemonic="3" group="tabsize"/>
+            <item text="4　" command="SetTabSize4" mnemonic="4" group="tabsize"/>
+            <item text="5　" command="SetTabSize5" mnemonic="5" group="tabsize"/>
+            <item text="6　" command="SetTabSize6" mnemonic="6" group="tabsize"/>
+            <item text="7　" command="SetTabSize7" mnemonic="7" group="tabsize"/>
+            <item text="8　" command="SetTabSize8" mnemonic="8" group="tabsize"/>
+        </menu>
+        <menu text="フォントサイズ(Z)" mnemonic="Z">
+            <item text="特大(E)　　　　　" command="SetFontSizeExtraBig" mnemonic="E"/>
+            <item text="大(B)　　　　　　" command="SetFontSizeBig" mnemonic="B"/>
+            <item text="標準(N)　　　　　" command="SetFontSizeNormal" mnemonic="N"/>
+            <item text="小(S)　　　　　　" command="SetFontSizeSmall" mnemonic="S"/>
+        </menu>
+        <separator/>
+        <item text="登録拡張子の設定(N)..." command="SetFileExtensions" mnemonic="N"/>
+        <item text="文字エンコード方式設定(E)..." command="SetCharacterEncodings" mnemonic="E"/>
+        <menu text="改行文字設定(N)" mnemonic="N">
+            <item text="CR　　　" command="SetNewLineCodeCR" group="newlinecode"/>
+            <item text="LF　　　" command="SetNewLineCodeLF" group="newlinecode"/>
+            <item text="CR＋LF　" command="SetNewLineCodeCRLF" group="newlinecode"/>
+        </menu>
+        <separator/>
+        <item text="プラグインの管理(G)... 　　　　　　" command="SetPlugins" mnemonic="G"/>
+    </menu>
+    <menu text="ウィンドウ(W)" mnemonic="W">
+        <menu text="エディタ分割(S)　　　　　　　　　　" mnemonic="S" leaficon="SPLIT">
+            <item text="垂直方向に分割(V)　　　　　　　　" command="SplitEditorVertical" accel="ctrl 1" mnemonic="V"/>
+            <item text="水平方向に分割(H)　　　　　　　　" command="SplitEditorHorizontal" accel="ctrl 2" mnemonic="H"/>
+            <separator/>
+            <item text="エディタの統合(M)　　　　　　　　" command="MergeEditor" accel="ctrl 3" mnemonic="M"/>
+        </menu>
+        <separator/>
+        <item text="次のタブを選択(N)　　　　　　　　　" command="NextTab" accel="ctrl shift alt RIGHT" mnemonic="N" leaficon="RIGHT"/>
+        <item text="前のタブを選択(P)　　　　　　　　　" command="PreviousTab" accel="ctrl shift alt LEFT" mnemonic="P"
+              leaficon="LEFT"/>
+        <separator/>
+        <item text="先頭のタブを選択(F)　　　　　　　　" command="FirstTab" accel="ctrl shift alt UP" mnemonic="F"/>
+        <item text="最後のタブを選択(L)　　　　　　　　" command="LastTab" accel="ctrl shift alt DOWN" mnemonic="L"/>
+        <separator/>
+        <item text="タブ検索(T)... 　　　　　　　　　　" command="SearchTab" accel="ctrl T" mnemonic="T"/>
+        <item text="タブを昇順並び替え(S)　　　　　　　" command="SortTabs" accel="ctrl L" mnemonic="S"/>
+        <separator/>
+        <item text="現在のタブを閉じる(C)　　　　　　　" command="CloseTab" accel="ctrl F4" mnemonic="C" leaficon="CLOSE"/>
+        <item text="全てのタブを閉じる(A)　　　　　　　" command="CloseAllTabs" accel="alt F4" mnemonic="A"/>
+        <separator/>
+        <item text="常に最前面に表示(O)　　　　　　　　" command="AlwaysOnTop" mnemonic="O"/>
+        <separator/>
+        <item text="ウィンドウを最大化(M)　　　　　　　" command="MaximizeWindow" mnemonic="M"/>
+        <item text="ウィンドウを最小化(I)　　　　　　　" command="MinimizeWindow" mnemonic="I"/>
+    </menu>
+    <menu text="ヘルプ(H)" mnemonic="H">
+        <item text="ホームページ(H)　　　　　　　　　　" command="HomePage" accel="F1" mnemonic="P" leaficon="QUESTION"/>
+    </menu>
+</build>

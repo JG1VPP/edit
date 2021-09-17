@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Open>
+    <entry key="command_name" value="open"/>
+
+    <entry key="file_not_found_msg" value="&lt;html&gt;%s&lt;br&gt;上記のファイルは存在しません。開きなおしますか？&lt;br&gt;&lt;br&gt;"/>
+    <entry key="failed_to_open_msg" value="&lt;html&gt;%s&lt;br&gt;上記のファイルの読み込みに失敗しました"/>
+</Open>

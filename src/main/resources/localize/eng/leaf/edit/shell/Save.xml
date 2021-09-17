@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Save>
+    <entry key="command_name" value="save"/>
+
+    <entry key="failed_to_save_msg" value="Failed to save %s"/>
+</Save>

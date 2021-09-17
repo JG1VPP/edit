@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyntaxDialog>
+    <entry key="title" value="Syntax Options"/>
+    <entry key="label_set" value="Set"/>
+    <entry key="button_add_set" value="Add"/>
+    <entry key="button_del_set" value="Del"/>
+    <entry key="button_ext_set" value="Ext"/>
+
+    <entry key="panel_keywords" value="Keywords"/>
+    <entry key="button_add_keyword" value="Add"/>
+    <entry key="button_edit_keyword" value="Edit"/>
+    <entry key="button_del_keyword" value="Delete"/>
+
+    <entry key="panel_comment" value="Comment Signs"/>
+    <entry key="button_comment_start" value="Start"/>
+    <entry key="button_comment_end" value="End"/>
+    <entry key="button_comment_line" value="Line"/>
+
+    <entry key="block_comment_start" value="Block comment start"/>
+    <entry key="block_comment_end" value="Block comment end"/>
+    <entry key="line_comment_start" value="Line comment start"/>
+
+    <entry key="button_colors" value="Colors"/>
+    <entry key="button_ok" value="OK"/>
+    <entry key="button_cancel" value="Cancel"/>
+
+    <entry key="addKeyword_message" value="Input additional keyword"/>
+    <entry key="editKeyword_message" value="Edit this keyword"/>
+    <entry key="addKeyword_duplicate" value="Already same keyword is listed..."/>
+
+    <entry key="addSet_message" value="Input additional keyword set name"/>
+    <entry key="addSet_duplicate" value="Already same keyword set is listed..."/>
+    <entry key="removeSet_confirm" value="Are you sure to delete this keyword set?"/>
+    <entry key="setExtension_message" value="Input filename extensions, using ';' as delimiter."/>
+</SyntaxDialog>

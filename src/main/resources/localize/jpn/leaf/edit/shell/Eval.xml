@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EvalDialog>
+    <entry key="title" value="実行"/>
+    <entry key="panel_select_language" value="言語を選択"/>
+    <entry key="panel_information" value="情報"/>
+    <entry key="button_eval" value="実行"/>
+    <entry key="button_close" value="閉じる"/>
+    <entry key="label_example" value="例 : %s"/>
+</EvalDialog>

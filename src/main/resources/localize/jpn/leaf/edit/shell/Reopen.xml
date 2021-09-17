@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Reopen>
+    <entry key="command_name" value="開きなおす"/>
+
+    <entry key="file_is_edited_confirm" value="&lt;html&gt;このファイルは編集中です。上書き保存しますか？&lt;br&gt;&lt;br&gt;"/>
+    <entry key="select_charset_input" value="文字エンコード方式を選択してください"/>
+    <entry key="failed_to_open_msg" value="%s%n上記のファイルの読み込みに失敗しました"/>
+</Reopen>

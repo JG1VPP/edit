@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TextEditorUtils>
+    <entry key="untitled" value="untitled"/>
+    <entry key="tsedit_localized_title" value="%s - tsedit"/>
+    <entry key="statusbar_text" value="%s line  %s colmun"/>
+</TextEditorUtils>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<WriteOut>
+    <entry key="command_name" value="選択部分を保存"/>
+    <entry key="untitled_filename" value="無題.txt"/>
+
+    <entry key="overwrite_confirm" value="&lt;html&gt;%s&lt;br&gt;上記のファイルはすでに存在します。上書き保存しますか？&lt;br&gt;&lt;br&gt;"/>
+    <entry key="failed_to_save_msg" value="&lt;html&gt;%s&lt;br&gt;上記のファイルの保存に失敗しました"/>
+</WriteOut>

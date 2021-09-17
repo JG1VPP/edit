@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyntaxDialog>
+    <entry key="title" value="構文強調設定"/>
+    <entry key="label_set" value="セット"/>
+    <entry key="button_add_set" value="追加"/>
+    <entry key="button_del_set" value="削除"/>
+    <entry key="button_ext_set" value="拡張子"/>
+
+    <entry key="panel_keywords" value="キーワード"/>
+    <entry key="button_add_keyword" value="追加"/>
+    <entry key="button_edit_keyword" value="編集"/>
+    <entry key="button_del_keyword" value="削除"/>
+
+    <entry key="panel_comment" value="コメント符号"/>
+    <entry key="button_comment_start" value="ブロック先頭"/>
+    <entry key="button_comment_end" value="ブロック末尾"/>
+    <entry key="button_comment_line" value="行コメント"/>
+
+    <entry key="block_comment_start" value="ブロックコメントの先頭"/>
+    <entry key="block_comment_end" value="ブロックコメントの末尾"/>
+    <entry key="line_comment_start" value="行コメントの先頭"/>
+
+    <entry key="button_colors" value="配色"/>
+    <entry key="button_ok" value="OK"/>
+    <entry key="button_cancel" value="キャンセル"/>
+
+    <entry key="addKeyword_message" value="追加するキーワードを入力して下さい"/>
+    <entry key="editKeyword_message" value="このキーワードを編集します"/>
+    <entry key="addKeyword_duplicate" value="すでに同じキーワードが登録されています"/>
+
+    <entry key="addSet_message" value="追加するキーワードセット名を入力して下さい"/>
+    <entry key="addSet_duplicate" value="すでに同じキーワードセットが登録されています"/>
+    <entry key="removeSet_confirm" value="このキーワードセットを本当に削除しますか？"/>
+    <entry key="setExtension_message" value="「;(半角セミコロン)」を区切り文字にしてファイル拡張子を入力して下さい"/>
+</SyntaxDialog>

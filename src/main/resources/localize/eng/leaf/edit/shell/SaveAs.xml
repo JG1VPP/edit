@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SaveAs>
+    <entry key="command_name" value="save as"/>
+
+    <entry key="overwrite_confirm" value="&lt;html&gt;Are you sure to overwrite?&lt;br&gt;%s&lt;br&gt;&lt;br&gt;"/>
+    <entry key="failed_to_save_msg" value="Failed to save %s"/>
+</SaveAs>

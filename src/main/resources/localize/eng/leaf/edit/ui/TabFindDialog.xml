@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabFindDialog>
+    <FindDialog>
+        <entry key="title" value="Search Tab"/>
+        <entry key="label_partial" value="Partial"/>
+        <entry key="button_search" value="Search"/>
+        <entry key="button_close" value="Close"/>
+    </FindDialog>
+</TabFindDialog>

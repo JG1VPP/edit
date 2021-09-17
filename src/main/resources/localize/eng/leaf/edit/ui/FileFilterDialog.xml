@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FileFilterDialog>
+    <texts>
+        <entry key="title" value="File Extensions"/>
+        <entry key="label_filter" value="Filter Name"/>
+        <entry key="button_filter_add" value="Add"/>
+        <entry key="button_filter_delete" value="Delete"/>
+        <entry key="button_ext_add" value="Add"/>
+        <entry key="button_ext_delete" value="Delete"/>
+        <entry key="label_filetype" value="File Type"/>
+        <entry key="button_ok" value="OK"/>
+        <entry key="button_cancel" value="Cancel"/>
+    </texts>
+    <messages>
+        <entry key="duplicate_filter_msg" value="Exists the same name keyword filter."/>
+        <entry key="delete_filter_confirm" value="Are you sure you want to delete?"/>
+        <entry key="add_filter_msg" value="Input filter name to add"/>
+        <entry key="add_extension_msg" value="Input an extension to add"/>
+    </messages>
+</FileFilterDialog>

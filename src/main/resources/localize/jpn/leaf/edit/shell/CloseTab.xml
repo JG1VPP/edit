@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CloseTab>
+    <entry key="command_name" value="タブを閉じる"/>
+
+    <entry key="file_is_edited_confirm" value="このファイルは編集中です。上書き保存しますか？"/>
+</CloseTab>

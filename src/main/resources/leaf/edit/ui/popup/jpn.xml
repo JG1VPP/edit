@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<build>
+    <item text="元に戻す(U)                  " mnemonic="U" accel="ctrl Z" command="Undo" leaficon="UNDO"/>
+    <item text="やり直し(R)                  " mnemonic="R" accel="ctrl Y" command="Redo" leaficon="REDO"/>
+    <separator/>
+    <item text="切り取り(T)                  " mnemonic="T" accel="ctrl X" command="Cut" leaficon="CUT"/>
+    <item text="コピー(C)                    " mnemonic="C" accel="ctrl C" command="Copy" leaficon="COPY"/>
+    <item text="貼り付け(P)                  " mnemonic="P" accel="ctrl V" command="Paste" leaficon="PASTE"/>
+    <item text="削除(D)                      " mnemonic="D" accel="DELETE" command="Delete" leaficon="SALTIRE"/>
+    <item text="この行を削除(L)              " mnemonic="L" accel="ctrl B" command="DeleteLine" leaficon="DELETE_LINE"/>
+    <separator/>
+    <item text="この行を選択(S)              " mnemonic="S" accel="ctrl Q" command="SelectLine" leaficon="SELECT"/>
+    <item text="全て選択(A)                  " mnemonic="A" accel="ctrl A" command="SelectAll" leaficon="SELECT_ALL"/>
+</build>

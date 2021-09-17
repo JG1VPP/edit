@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<build>
+    <menu text="File" mnemonic="F">
+        <item text="New" command="New" accel="ctrl N" mnemonic="N" leaficon="NEW"/>
+        <item text="Open..." command="Open" accel="ctrl O" mnemonic="O" leaficon="OPEN"/>
+        <item text="Close and Open..." command="CloseAndOpen" accel="ctrl alt O" mnemonic="L"/>
+        <separator/>
+        <item text="Save" command="Save" accel="ctrl S" mnemonic="S" leaficon="SAVE"/>
+        <item text="Save As..." command="SaveAs" accel="ctrl shift S" mnemonic="A" leaficon="SAVE_AS"/>
+        <item text="Save All" command="SaveAll" mnemonic="V" leaficon="SAVE_ALL"/>
+        <separator/>
+        <item text="Print..." command="Print" accel="ctrl P" mnemonic="P" leaficon="PRINT"/>
+        <separator/>
+        <item text="Read In..." command="ReadIn" mnemonic="I"/>
+        <item text="Write Out..." command="WriteOut" mnemonic="W"/>
+        <separator/>
+        <item text="Reopen" command="Reopen" accel="alt O" mnemonic="R" leaficon="LOOP"/>
+        <item command="History"/>
+        <separator/>
+        <item text="Save and Close Tab" command="SaveAndCloseTab" mnemonic="T"/>
+        <item text="Close Tab" command="CloseTab" accel="ctrl F4" mnemonic="C" leaficon="CLOSE"/>
+        <item text="Close All Tabs" command="CloseAllTabs" accel="alt F4" mnemonic="B"/>
+        <separator/>
+        <item text="Exit" command="Exit" accel="ctrl alt F4" mnemonic="X" leaficon="EXIT"/>
+    </menu>
+    <menu text="Edit" mnemonic="E">
+        <item text="Undo" command="Undo" accel="ctrl Z" mnemonic="U" leaficon="UNDO"/>
+        <item text="Redo" command="Redo" accel="ctrl Y" mnemonic="R" leaficon="REDO"/>
+        <separator/>
+        <item text="Cut" command="Cut" accel="ctrl X" mnemonic="T" leaficon="CUT"/>
+        <item text="Copy" command="Copy" accel="ctrl C" mnemonic="C" leaficon="COPY"/>
+        <item text="Paste" command="Paste" accel="ctrl V" mnemonic="P" leaficon="PASTE"/>
+        <item text="Delete" command="Delete" accel="DELETE" mnemonic="D" leaficon="SALTIRE"/>
+        <item text="Delete Line" command="DeleteLine" accel="ctrl B" mnemonic="L" leaficon="DELETE_LINE"/>
+        <item text="Backspace" command="Backspace" accel="BACK_SPACE" mnemonic="B" leaficon="LEFT"/>
+        <separator/>
+        <item text="Select Line" command="SelectLine" accel="ctrl Q" mnemonic="S" leaficon="SELECT"/>
+        <item text="Select All" command="SelectAll" accel="ctrl A" mnemonic="A" leaficon="SELECT_ALL"/>
+        <separator/>
+        <menu text="Insert" mnemonic="I">
+            <item text="Date" command="InsertDate" accel="shift alt D" mnemonic="D"/>
+            <item text="Time" command="InsertTime" accel="shift alt T" mnemonic="T"/>
+            <separator/>
+            <item text="OS Version" command="InsertOSVersion" accel="shift alt O" mnemonic="O"/>
+            <item text="User Name" command="InsertUserName" accel="shift alt U" mnemonic="U"/>
+            <separator/>
+            <item text="File Name" command="InsertFileName" accel="shift alt N" mnemonic="N"/>
+            <item text="File Path" command="InsertFilePath" accel="shift alt P" mnemonic="P"/>
+            <separator/>
+            <item text="Text Length" command="InsertTextLength" accel="shift alt L" mnemonic="L"/>
+            <item text="Byte Length" command="InsertByteLength" accel="shift alt B" mnemonic="B"/>
+            <separator/>
+            <item text="Generate Password" command="InsertPassword" accel="shift alt G" mnemonic="G"/>
+        </menu>
+        <menu text="Move" mnemonic="M">
+            <item text="to Top(BOF)" command="MoveToBOF" mnemonic="T"/>
+            <item text="to End(EOF)" command="MoveToEOF" mnemonic="E"/>
+            <separator/>
+            <item text="to Previous Page" command="MoveToPreviousPage" accel="alt UP" mnemonic="P"/>
+            <item text="to Next Page" command="MoveToNextPage" accel="alt DOWN" mnemonic="N"/>
+            <separator/>
+            <item text="to Left(BOL)" command="MoveToBOL" accel="alt LEFT" mnemonic="L"/>
+            <item text="to Right(EOL)" command="MoveToEOL" accel="alt RIGHT" mnemonic="R"/>
+        </menu>
+        <menu text="Select" mnemonic="S">
+            <item text="to Top(BOF)" command="SelectToBOF" accel="alt shift UP" mnemonic="T"/>
+            <item text="to End(EOF)" command="SelectToEOF" accel="alt shift DOWN" mnemonic="E"/>
+            <separator/>
+            <item text="to Left(BOL)" command="SelectToBOL" accel="alt shift LEFT" mnemonic="L"/>
+            <item text="to Right(EOL)" command="SelectToEOL" accel="alt shift RIGHT" mnemonic="R"/>
+            <separator/>
+            <item text="Select Line" command="SelectLine" accel="ctrl Q" mnemonic="S" leaficon="SELECT"/>
+            <item text="Select All" command="SelectAll" accel="ctrl A" mnemonic="A" leaficon="SELECT_ALL"/>
+        </menu>
+        <menu text="Format" mnemonic="F">
+            <item text="Sort in Ascending" command="SortInAscending" accel="alt A" mnemonic="A" leaficon="DOWN"/>
+            <item text="Sort in Descending" command="SortInDescending" accel="alt D" mnemonic="D" leaficon="UP"/>
+        </menu>
+    </menu>
+    <menu text="Convert" mnemonic="C">
+        <item text="lower Case" command="ConvertToLowerCase" accel="alt shift F5" mnemonic="L"/>
+        <item text="UPPER Case" command="ConvertToUpperCase" accel="alt shift F6" mnemonic="U"/>
+        <separator/>
+        <item text="FULLWIDTH to halfwidth" command="ConvertToEnAlphaNumeric" accel="alt shift F7" mnemonic="H"/>
+        <item text="halfwidth to FULLWIDTH" command="ConvertToEmAlphaNumeric" accel="slt shift F8" mnemonic="F"/>
+        <menu text="Alphabet" mnemonic="A">
+            <item text="FULLWIDTH to halfwidth" command="ConvertToEnAlphabet" mnemonic="H"/>
+            <item text="halfwidth to FULLWIDTH" command="ConvertToEmAlphabet" mnemonic="F"/>
+        </menu>
+        <menu text="Numerical Digit" mnemonic="N">
+            <item text="FULLWIDTH to halfwidth" command="ConvertToEnNumeric" mnemonic="H"/>
+            <item text="halfwidth to FULLWIDTH" command="ConvertToEmNumeric" mnemonic="F"/>
+        </menu>
+        <menu text="Japanese Kana" mnemonic="J">
+            <item text="Katakana to Hiragana" command="ConvertToHiragana" mnemonic="H"/>
+            <item text="Hiragana to Katakana" command="ConvertToKatakana" mnemonic="K"/>
+        </menu>
+        <separator/>
+        <item text="TAB to WHITESPACE" command="ConvertToWhitespace" mnemonic="W"/>
+        <item text="WHITESPACE to TAB" command="ConvertToTab" mnemonic="T"/>
+    </menu>
+    <menu text="Search" mnemonic="S">
+        <item text="Find..." command="Find" accel="ctrl F" mnemonic="F" leaficon="FIND"/>
+        <item text="Find Next" command="FindNext" accel="F3" mnemonic="N" leaficon="FIND_RIGHT"/>
+        <item text="Find Previous" command="FindPrevious" accel="shift F3" mnemonic="P" leaficon="FIND_LEFT"/>
+        <item text="Replace..." command="Replace" accel="ctrl R" mnemonic="R" leaficon="REPLACE"/>
+        <separator/>
+        <item text="GREP..." command="Grep" accel="ctrl G" mnemonic="G" leaficon="GREP"/>
+        <item text="DIFF..." command="Diff" accel="ctrl D" mnemonic="D"/>
+        <separator/>
+        <menu text="Search Online" mnemonic="O">
+            <item text="Google" command="SearchWithGoogle" mnemonic="G"/>
+            <item text="Yahoo!" command="SearchWithYahoo" mnemonic="Y"/>
+            <separator/>
+            <item text="YouTube" command="SearchWithYouTube" mnemonic="Y"/>
+            <separator/>
+            <item text="Wikipedia" command="SearchWithWikipedia" mnemonic="W"/>
+        </menu>
+        <separator/>
+        <item text="Search Tab..." command="SearchTab" accel="ctrl T" mnemonic="T"/>
+        <separator/>
+        <item text="Jump..." command="Jump" accel="ctrl J" mnemonic="J"/>
+    </menu>
+    <menu text="Extend" mnemonic="X">
+        <item text="Eval" command="Eval" accel="F5" mnemonic="E" leaficon="PLAY"/>
+        <item text="Browse" command="Browse" accel="F6" mnemonic="B"/>
+        <separator/>
+        <item text="Dump..." command="HexDump" mnemonic="D"/>
+        <item text="News Feed" command="NewsFeed" mnemonic="F"/>
+        <separator/>
+        <menu text="Cell Automata" mnemonic="A">
+            <item text="Left Scroll..." command="LeftScroll" mnemonic="S"/>
+            <item text="Game of Life..." command="Life" mnemonic="L"/>
+            <item text="Wireworld..." command="Wireworld" mnemonic="W"/>
+        </menu>
+        <separator/>
+        <item text="World Clock..." command="WorldClock" mnemonic="W"/>
+        <item text="Calculator..." command="Calculator" mnemonic="C" leaficon="CALCULATOR"/>
+        <item text="Resource Monitor..." command="Resource" mnemonic="R"/>
+        <item text="Console Output" command="Console" accel="ctrl M" mnemonic="M" leaficon="CONSOLE"/>
+        <separator/>
+        <item text="Hide Windows" command="HideWindows" accel="ctrl ENTER" mnemonic="H"/>
+    </menu>
+    <menu text="Settings" mnemonic="T">
+        <item text="Locale..." command="SetLocale" mnemonic="L"/>
+        <item text="Look And Feel..." command="SetLnF" mnemonic="F"/>
+        <separator/>
+        <item text="Font..." command="SetFont" mnemonic="F"/>
+        <item text="Syntax Highlight..." command="SetSyntaxHighlight" mnemonic="S"/>
+        <separator/>
+        <item text="Background Image..." command="SetWallpaper" mnemonic="B"/>
+        <item text="Cursor Image..." command="SetCursorImage" mnemonic="C"/>
+        <item text="Typing Sound..." command="SetTypingSound" mnemonic="T"/>
+        <separator/>
+        <menu text="Tab Size" mnemonic="S">
+            <item text="1" command="SetTabSize1" mnemonic="1" group="tabsize"/>
+            <item text="2" command="SetTabSize2" mnemonic="2" group="tabsize"/>
+            <item text="3" command="SetTabSize3" mnemonic="3" group="tabsize"/>
+            <item text="4" command="SetTabSize4" mnemonic="4" group="tabsize"/>
+            <item text="5" command="SetTabSize5" mnemonic="5" group="tabsize"/>
+            <item text="6" command="SetTabSize6" mnemonic="6" group="tabsize"/>
+            <item text="7" command="SetTabSize7" mnemonic="7" group="tabsize"/>
+            <item text="8" command="SetTabSize8" mnemonic="8" group="tabsize"/>
+        </menu>
+        <menu text="Font Size" mnemonic="Z">
+            <item text="EXTRA BIG" command="SetFontSizeExtraBig" mnemonic="E"/>
+            <item text="BIG" command="SetFontSizeBig" mnemonic="B"/>
+            <item text="Normal" command="SetFontSizeNormal" mnemonic="N"/>
+            <item text="small" command="SetFontSizeSmall" mnemonic="S"/>
+        </menu>
+        <separator/>
+        <item text="File Extensions..." command="SetFileExtensions" mnemonic="N"/>
+        <item text="Character Encodings..." command="SetCharacterEncodings" mnemonic="E"/>
+        <menu text="New Line Code" mnemonic="N">
+            <item text="CR" command="SetNewLineCodeCR" group="newlinecode"/>
+            <item text="LF" command="SetNewLineCodeLF" group="newlinecode"/>
+            <item text="CR LF" command="SetNewLineCodeCRLF" group="newlinecode"/>
+        </menu>
+        <separator/>
+        <item text="Plugin Management..." command="SetPlugins" mnemonic="G"/>
+    </menu>
+    <menu text="Window" mnemonic="W">
+        <menu text="Split Editor" mnemonic="S" leaficon="SPLIT">
+            <item text="Split Editor Vertical" command="SplitEditorVertical" accel="ctrl 1" mnemonic="V"/>
+            <item text="Split Editor Horizontal" command="SplitEditorHorizontal" accel="ctrl 2" mnemonic="H"/>
+            <separator/>
+            <item text="Merge Editor" command="MergeEditor" accel="ctrl 3" mnemonic="M"/>
+        </menu>
+        <separator/>
+        <item text="Next Tab" command="NextTab" accel="ctrl shift alt RIGHT" mnemonic="N" leaficon="RIGHT"/>
+        <item text="Previous Tab" command="PreviousTab" accel="ctrl shift alt LEFT" mnemonic="P" leaficon="LEFT"/>
+        <separator/>
+        <item text="First Tab" command="FirstTab" accel="ctrl shift alt UP" mnemonic="F"/>
+        <item text="Last Tab" command="LastTab" accel="ctrl shift alt DOWN" mnemonic="L"/>
+        <separator/>
+        <item text="Search Tab..." command="SearchTab" accel="ctrl T" mnemonic="T"/>
+        <item text="Sort Tabs" command="SortTabs" accel="ctrl L" mnemonic="S"/>
+        <separator/>
+        <item text="Close Tab" command="CloseTab" accel="ctrl F4" mnemonic="C" leaficon="CLOSE"/>
+        <item text="Close All Tabs" command="CloseAllTabs" accel="alt F4" mnemonic="A"/>
+        <separator/>
+        <item text="Always on Top" command="AlwaysOnTop" mnemonic="O"/>
+        <separator/>
+        <item text="MAXIMIZE Window" command="MaximizeWindow" mnemonic="M"/>
+        <item text="minimize window" command="MinimizeWindow" mnemonic="I"/>
+    </menu>
+    <menu text="Help" mnemonic="H">
+        <item text="Homepage" command="HomePage" accel="F1" mnemonic="P" leaficon="QUESTION"/>
+    </menu>
+</build>

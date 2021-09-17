@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<EvalDialog>
+    <entry key="title" value="Eval"/>
+    <entry key="panel_select_language" value="Select Language"/>
+    <entry key="panel_information" value="Information"/>
+    <entry key="button_eval" value="Eval"/>
+    <entry key="button_close" value="Close"/>
+    <entry key="label_example" value="Example : %s"/>
+</EvalDialog>

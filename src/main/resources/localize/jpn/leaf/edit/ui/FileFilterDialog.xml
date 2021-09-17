@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FileFilterDialog>
+    <texts>
+        <entry key="title" value="拡張子"/>
+        <entry key="label_filter" value="フィルタ名"/>
+        <entry key="button_filter_add" value="追加"/>
+        <entry key="button_filter_delete" value="削除"/>
+        <entry key="button_ext_add" value="追加"/>
+        <entry key="button_ext_delete" value="削除"/>
+        <entry key="label_filetype" value="種類"/>
+        <entry key="button_ok" value="OK"/>
+        <entry key="button_cancel" value="キャンセル"/>
+    </texts>
+    <messages>
+        <entry key="duplicate_filter_msg" value="同名のフィルタが存在します。"/>
+        <entry key="delete_filter_confirm" value="本当に削除しますか？"/>
+        <entry key="add_filter_msg" value="追加するフィルタ名を入力して下さい。"/>
+        <entry key="add_extension_msg" value="追加する拡張子を入力して下さい。"/>
+    </messages>
+</FileFilterDialog>

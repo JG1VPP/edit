@@ -1,19 +1,25 @@
-Leaf: Awesome Java Swing Library for Text Editors
+Leaf/Tsukishiro Editor 2.1
 ====
 
-![image](https://img.shields.io/badge/Gradle-6-red.svg)
-![image](https://img.shields.io/badge/OpenJDK-SE8-red.svg)
-![image](https://img.shields.io/badge/license-LGPL3-darkblue.svg)
+![image](https://img.shields.io/badge/Gradle-7-red.svg)
+![image](https://img.shields.io/badge/OpenJDK-SE16-red.svg)
+![image](https://img.shields.io/badge/license-GPL3-darkblue.svg)
 
-Leaf is a Java Swing library for creating a rich text editor.
+Leaf is an awesome text editor component library and Tsukishiro Editor is a sample rich text editor.
 
-## Features
+![image](tsedit.png)
 
 ## Documents
 
 - [Javadoc](https://nextzlog.github.io/leaf/doc/index.html)
 
-## Sample Codes
+## Build
+
+[Gradle](https://gradle.org/) retrieves dependent libraries, runs tests, and generates a JAR file automatically.
+
+```shell
+$ gradle build javadoc publish
+```
 
 ## Maven
 
@@ -29,14 +35,6 @@ dependencies {
 }
 ```
 
-## Build
-
-[Gradle](https://gradle.org/) retrieves dependent libraries, runs tests, and generates a JAR file automatically.
-
-```shell
-$ gradle build javadoc publish
-```
-
 ## Contribution
 
 Feel free to contact [@nextzlog](https://twitter.com/nextzlog) on Twitter.
@@ -49,10 +47,10 @@ Feel free to contact [@nextzlog](https://twitter.com/nextzlog) on Twitter.
 
 ### Clauses
 
-- This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License(LGPL) as published by the Free Software Foundation (FSF), either version 3 of the License, or (at your option) any later version.
+- This library is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-- This program is distributed in the hope that it will be useful, but **without any warranty**; without even the implied warranty of **merchantability or fitness for a particular purpose**.
+- This library is distributed in the hope that it will be useful, but **without any warranty**; without even the implied warranty of **merchantability or fitness for a particular purpose**.
 See the GNU Lesser General Public License for more details.
 
-- You should have received a copy of the GNU General Public License and GNU Lesser General Public License along with this program.
+- You should have received a copy of the GNU Lesser General Public License along with this library.
 If not, see <http://www.gnu.org/licenses/>.

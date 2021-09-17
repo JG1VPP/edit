@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DiffDialog>
+    <entry key="title" value="Diff"/>
+    <entry key="label_old" value="Old File"/>
+    <entry key="label_new" value="New File"/>
+    <entry key="case_sensitive" value="Case Sensitive"/>
+    <entry key="button_diff" value="Diff"/>
+    <entry key="button_close" value="Close"/>
+</DiffDialog>
